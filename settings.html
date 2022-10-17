@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Puppy Talk</title>
+    <title>Setting - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,35 +23,44 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-comment-dots fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"> <i class="fa-solid fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
       </div>
     </header>
 
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="file:///Users/hyunjee/Pictures/%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%20%E1%84%87%E1%85%A9%E1%84%80%E1%85%AA%E1%86%AB%E1%84%92%E1%85%A1%E1%86%B7.photoslibrary/private/com.apple.Photos/ExternalEditSessions/52D5E598-053D-497A-AC20-29BF46DD7406/IMG_0562.jpg"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">Mung</h4>
-              <h6 class="user-component__subtitle">Hey</h6>
-            </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-colume">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
+          <div class="settings__setting-colume"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-colume">
+            <i class="fa-solid fa-flask"></i>
+            <span>Kakao Lab</span>
           </div>
-        </div>
-      </a>
+          <div class="settings__setting-colume"></div>
+        </li>
+
+        <li class="settings__setting">
+          <div class="settings__setting-colume">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-colume">Latest Version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -61,7 +70,7 @@
             ><i class="fa-solid fa-dog fa-2x"></i>
           </a>
         </li>
-        <li class="nav__btn nav__btn-chats">
+        <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
             <i class="fa-solid fa-paw fa-2x"></i>
